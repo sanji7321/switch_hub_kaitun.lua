@@ -1,4 +1,4 @@
-if game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+if game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() nil
 
 getgenv().Faster = { 
     ['CDK Super Fast'] = true, -- Spawn Admin / เสกแอดมิน

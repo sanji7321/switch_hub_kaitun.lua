@@ -11,7 +11,6 @@ getgenv().RAM = { -- Log Des
 }
 
 getgenv().Setting = { -- Setting Script / ตั้งค่าสคริปต์
-    ['FPS Booster'] = _G.Setting['FPS Booster']
     ['White Screen'] = true,
     ['Disible Gui'] = _G.Setting['Close Ui'],
     ['Lock Fruit'] = 1000000,

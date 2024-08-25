@@ -1,5 +1,13 @@
-
-if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded()",
+repeat
+    task.wait()
+until game:IsLoaded()
+repeat
+    task.wait()
+until game.Players
+repeat
+    task.wait()
+until game.Players.LocalPlayer
+wait(5)
 
 getgenv().Faster = { 
     ['CDK Super Fast'] = true, -- Spawn Admin / เสกแอดมิน

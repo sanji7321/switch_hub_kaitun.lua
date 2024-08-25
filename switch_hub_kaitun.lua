@@ -1,5 +1,5 @@
-if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
-}
+if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded()
+
 getgenv().Faster = { 
     ['CDK Super Fast'] = true, -- Spawn Admin / เสกแอดมิน
     ['Buy Color Haki'] = 3 -- Legendary Haki Max 3

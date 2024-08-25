@@ -1,5 +1,5 @@
 
-if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end,
 
 getgenv().Faster = { 
     ['CDK Super Fast'] = true, -- Spawn Admin / เสกแอดมิน
@@ -13,7 +13,7 @@ getgenv().RAM = { -- Log Des
 
 getgenv().Setting = { -- Setting Script / ตั้งค่าสคริปต์
     ['FPS Booster'] = _G.Setting['FPS Booster'],
-    ['White Screen'] = true,
+    ['White Screen'] = false,
     ['Disible Gui'] = _G.Setting['Close Ui'],
     ['Lock Fruit'] = 1000000,
     ['AFK Check'] = 150,

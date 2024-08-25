@@ -144,7 +144,7 @@ if _G.Switch_Hub_Series_R then
 			end
 		until game.Players.LocalPlayer.Team ~= nil and game:IsLoaded()
 	end
-	task.spawn(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/daucoghe2/cotdo/main/cotdo"',true))()
+	task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-script/main/middle.lua'))() end)
 
 	-- RAM
 	if _G.Quest == nil then
